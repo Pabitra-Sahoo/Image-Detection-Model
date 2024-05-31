@@ -1,5 +1,5 @@
-## mage Prediction using MobileNetV2 Model 
-# Introduction 
+## Image Prediction using MobileNetV2 Model 
+# Introduction :
 In this code snippet, I am utilizing the MobileNetV2 model, pre-trained on the ImageNet dataset, to 
 predict the contents of various images. The MobileNetV2 model is a convolutional neural network 
 that is efficient and well-suited for mobile and embedded vision applications. 
@@ -9,7 +9,7 @@ MobileNetV2 Model: A lightweight deep learning model designed for mobile and edg
 Image Prediction: Using the pre-trained MobileNetV2 model to predict the contents of images. 
 
 Preprocessing: Loading, resizing, and preprocessing images before feeding them into the model for 
-# prediction. 
+# Detection:
 Visualization: Displaying the images along with their predicted classes and confidence scores. 
 Code Structure: 
 Loading the Model: The code loads the MobileNetV2 model with pre-trained weights from 
@@ -23,7 +23,7 @@ scores.
 
 Function Invocation: The function is called for each image path in the array to predict and display the 
 images. 
-# Conclusion
+# Conclusion:
 This code demonstrates how to use the MobileNetV2 model to predict the contents of images. By leveraging a pre-trained model like MobileNetV2, we can quickly and efficiently classify images with high accuracy. The code showcases image preprocessing, prediction, and visualization, making it a valuable resource for image recognition tasks.
 
 
